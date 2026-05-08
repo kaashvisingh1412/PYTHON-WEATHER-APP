@@ -1,22 +1,25 @@
 # PYTHON-WEATHER-APP
 
-## Overview
-The **Python Weather App** is a simple console-based application that allows users to check the current weather for any city. It fetches live weather data from the **OpenWeatherMap API** and displays temperature, humidity, wind speed, and weather conditions.  
+# Python Weather App 🌤️ (Simulated Version)
 
-This project is perfect for beginners and demonstrates **API integration, loops, input validation, and error handling** in Python.
+## Overview
+The **Python Weather App (Simulated Version)** is a beginner-friendly console application that allows users to check the current weather for selected cities.  
+
+Since it doesn't use any external libraries, the app **simulates weather data** using Python dictionaries and adds slight random variations to make the output dynamic.  
+
+This project is ideal for **first-year students** to showcase Python fundamentals like loops, conditionals, dictionaries, and user interaction.
 
 ---
 
 ## Features
-- Get current weather for any city.
+- Check weather for predefined cities: London, Paris, New York, Tokyo, Delhi.  
 - Displays:
   - Temperature (°C)
-  - "Feels Like" temperature (°C)
   - Humidity (%)
-  - Wind Speed (m/s)
-  - Weather Condition (e.g., clear sky, rain)
-- Handles invalid city names gracefully.
-- Looping functionality to check multiple cities without restarting.
+  - Weather condition (e.g., sunny, rainy)
+- Adds random variations for dynamic simulation.  
+- Handles invalid city names gracefully.  
+- Loops allow checking multiple cities without restarting.
 
 ---
 
